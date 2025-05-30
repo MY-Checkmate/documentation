@@ -6404,7 +6404,7 @@ __metadata:
     json2csv: ^4.5.4
     lazypipe: 1.0.2
     lodash: ^4.17.21
-    marked: ^1.2.9
+    marked: ^4.0.10
     merge-stream: 2.0.0
     minimist: ^1.2.8
     mixitup: ^3.3.1
@@ -10710,12 +10710,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:^1.2.9":
-  version: 1.2.9
-  resolution: "marked@npm:1.2.9"
+"marked@npm:^4.0.10":
+  version: 4.3.0
+  resolution: "marked@npm:4.3.0"
   bin:
-    marked: bin/marked
-  checksum: c5a461b8081ee8f672197bf6503c49eba3906614eefea29f3188f5dac06a7fca45a0c2d97ed5d0910a1c96696c827f062ae5cc0b37c9a0acdaafb2acb1467a2f
+    marked: bin/marked.js
+  checksum: 0db6817893952c3ec710eb9ceafb8468bf5ae38cb0f92b7b083baa13d70b19774674be04db5b817681fa7c5c6a088f61300815e4dd75a59696f4716ad69f6260
   languageName: node
   linkType: hard
 
