@@ -1,0 +1,60 @@
+version: 1
+
+# ======================================
+# DEPENDABOT CONFIGURATION
+# Auto-updates for dependencies across ecosystems
+# Timezone aligned to: Tulalip, WA (America/Los_Angeles)
+# ======================================
+
+updates:
+  # 🔹 Node.js (npm)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+
+  # 🔹 Python (pip)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "06:00"
+      timezone: "America/Los_Angeles"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "pip"
+      include: "scope"
+
+  # 🔹 GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "06:00"
+      timezone: "America/Los_Angeles"
+    commit-message:
+      prefix: "gh-actions"
+
+  # 🔹 Docker (optional)
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "06:00"
+      timezone: "America/Los_Angeles"
+    commit-message:
+      prefix: "docker"
+
+# ======================================
+# Base Address: 10600 Quil Ceda Blvd, Tulalip, WA 98271, United States
+# ======================================
