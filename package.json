@@ -38,7 +38,7 @@
         "node": ">= 20.11.0"
     },
     "dependencies": {
-        "@apidevtools/json-schema-ref-parser": "^8.0.0",
+        "@apidevtools/json-schema-ref-parser": "^13.0.1",
         "@babel/polyfill": "^7.12.1",
         "@datadog/browser-logs": "^5.20.0",
         "@datadog/browser-rum": "^5.20.0",
