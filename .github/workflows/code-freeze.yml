@@ -52,7 +52,7 @@ jobs:
     - name: Get Changed files
       if: env.ACTIVE_FREEZE == 'true' && ! (contains( github.event.pull_request.labels.*.name, 'MERGE-NOW') || contains( github.event.pull_request.labels.*.name, 'codefreeze-approved'))
       id: changed-files
-      uses: tj-actions/changed-files@v42
+      uses: tj-actions/changed-files@v46
       with:
         separator: ","
         fetch_depth: 5
