@@ -16,7 +16,7 @@ jobs:
 
     - name: Find changed files
       id: changed_files
-      uses: tj-actions/changed-files@v42
+      uses: tj-actions/changed-files@v46
 
     - name: Look for gifs
       env:
