@@ -144,14 +144,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@apidevtools/json-schema-ref-parser@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "@apidevtools/json-schema-ref-parser@npm:8.0.0"
+"@apidevtools/json-schema-ref-parser@npm:^13.0.4":
+  version: 13.0.4
+  resolution: "@apidevtools/json-schema-ref-parser@npm:13.0.4"
   dependencies:
-    "@jsdevtools/ono": ^7.1.0
-    call-me-maybe: ^1.0.1
-    js-yaml: ^3.13.1
-  checksum: 3875f3c2fcde9330fa2da5fa8bf4150fb50dc8b5f43b02c5315b79c471b1e1603c3b0320c31f2be80fbc81376efd19e87c8d13da21daadd92544354b6d43d2e7
+    "@types/json-schema": ^7.0.15
+    js-yaml: ^4.1.0
+  checksum: 1326b019f5982db8af5c2598ebda107676b77c826a060feae695e5947449fb32bbe3136b33cb8c037a4c4ac08140865b831925be712ed28b89ae11efff6620dc
   languageName: node
   linkType: hard
 
@@ -3180,13 +3179,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jsdevtools/ono@npm:^7.1.0":
-  version: 7.1.3
-  resolution: "@jsdevtools/ono@npm:7.1.3"
-  checksum: 2297fcd472ba810bffe8519d2249171132844c7174f3a16634f9260761c8c78bc0428a4190b5b6d72d45673c13918ab9844d706c3ed4ef8f62ab11a2627a08ad
-  languageName: node
-  linkType: hard
-
 "@kwsites/file-exists@npm:^1.1.1":
   version: 1.1.1
   resolution: "@kwsites/file-exists@npm:1.1.1"
@@ -4051,6 +4043,13 @@ __metadata:
     "@types/istanbul-lib-coverage": "*"
     "@types/istanbul-lib-report": "*"
   checksum: 00866e815d1e68d0a590d691506937b79d8d65ad8eab5ed34dbfee66136c7c0f4ea65327d32046d5fe469f22abea2b294987591dc66365ebc3991f7e413b2d78
+  languageName: node
+  linkType: hard
+
+"@types/json-schema@npm:^7.0.15":
+  version: 7.0.15
+  resolution: "@types/json-schema@npm:7.0.15"
+  checksum: 97ed0cb44d4070aecea772b7b2e2ed971e10c81ec87dd4ecc160322ffa55ff330dace1793489540e3e318d90942064bb697cc0f8989391797792d919737b3b98
   languageName: node
   linkType: hard
 
@@ -5467,13 +5466,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"call-me-maybe@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "call-me-maybe@npm:1.0.1"
-  checksum: d19e9d6ac2c6a83fb1215718b64c5e233f688ebebb603bdfe4af59cde952df1f2b648530fab555bf290ea910d69d7d9665ebc916e871e0e194f47c2e48e4886b
-  languageName: node
-  linkType: hard
-
 "callsites@npm:^3.0.0":
   version: 3.1.0
   resolution: "callsites@npm:3.1.0"
@@ -6366,7 +6358,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "docs@workspace:."
   dependencies:
-    "@apidevtools/json-schema-ref-parser": ^8.0.0
+    "@apidevtools/json-schema-ref-parser": ^13.0.4
     "@babel/plugin-proposal-class-properties": ^7.18.6
     "@babel/plugin-proposal-object-rest-spread": ^7.20.7
     "@babel/polyfill": ^7.12.1
