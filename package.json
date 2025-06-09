@@ -41,7 +41,7 @@
         "@apidevtools/json-schema-ref-parser": "^8.0.0",
         "@babel/polyfill": "^7.12.1",
         "@datadog/browser-logs": "^5.20.0",
-        "@datadog/browser-rum": "^5.20.0",
+        "@datadog/browser-rum": "^6.10.1",
         "@popperjs/core": "^2.11.8",
         "algoliasearch": "4.22.1",
         "alpinejs": "^3.13.7",
